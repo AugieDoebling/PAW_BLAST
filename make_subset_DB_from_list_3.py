@@ -30,7 +30,8 @@ import os
 import sys
 import time
 import copy
-import fasta_lib
+# import fasta_lib
+from . import fasta_lib
 
 # control flags
 KEEP_CONTAMS = False
